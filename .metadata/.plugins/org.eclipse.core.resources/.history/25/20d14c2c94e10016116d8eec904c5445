@@ -1,0 +1,21 @@
+package com.java;
+
+public class Increment {
+	int x;
+	public Increment(){
+		x=5;
+	}
+	void pre(){
+		++x;
+		System.out.println(x);
+	}
+			
+		
+	
+
+	public static void main(String[] args) {
+		Increment i= new Increment();
+		i.pre();
+	}
+
+}
